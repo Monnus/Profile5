@@ -1,0 +1,280 @@
+/*background-color: rgb(139, 143, 140); gray
+background-color:rgb(191, 93, 2); brown
+background-color: rgb(255, 255, 5); pink
+backround-color: rgba(0,0,0,0.4);
+/*font-family: 'Roboto Condensed', sans-serif;
+<link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+font-family: 'Kite One', sans-serif;*/
+*{
+margin:0px;
+padding:0px;
+}
+body{
+width: 100%;
+height: 100%;
+background: #f0f0f5;
+font-size: 14pt;
+}
+#backround1{
+
+position: absolute;
+width: 100%;
+height: 286px;
+left: 0px;
+top: 0px;
+
+background: #1A53FF;
+}
+#name{
+  position: relative;
+width: 60%;
+height: 40px;
+left: 45px;
+top: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25pt;
+line-height: 31px;
+
+color: #FFFFFF;
+}
+#subtitle{
+  position: relative;
+width: 245px;
+height: 61px;
+left: 45px;
+top: 106px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13pt;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+#download{
+  position: absolute;
+width: 109px;
+height: 34px;
+left: 64px;
+top: 214px;
+
+background: #FFFFFF;
+}
+
+#picture{
+position:absolute;
+width: 246px;
+height: 80%;
+right: 50px;
+top:20px;
+
+background: url(M-20200904-WA0001-Copy.jpg);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/*border-radius: 0px 66.5px 66.5px 66.5px;*/
+}
+#circle{
+  position: absolute;
+width: 55px;
+height: 53px;
+left: 50%;
+top: 255px;
+border-radius: 100%;
+background: #FFFFFF;
+}
+#main{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:20em;
+}
+#about-me{
+  position:absolute;
+  display:block;
+  height: 200px;
+width: 320px;
+right: 0px;
+top: 51px;
+border-radius: nullpx;
+}
+
+#picture2{
+position: absolute;
+display: block;
+width: 351px;
+height: 315px;
+left: 22px;
+top:50px;
+}
+
+#skills{
+  position: absolute;
+  background: gray;
+width: 100%;
+height: 383px;
+left: 19px;
+top: 500px;
+
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto auto;
+}
+
+#heading{
+  grid-column: 1;
+  grid-row: 1;
+}
+#ADOBE{
+  grid-column: 1;
+  grid-row: 2;
+}
+.block1{
+  width: 50%;
+  height: 30px;
+  background: #1A53FF;
+}
+
+#HTML{
+  grid-column:2;
+  grid-row:2;
+}
+.block3{
+  width: 50%;
+  height: 30px;
+  background: #1A53FF;
+}
+#CSS{
+  grid-column: 1;
+  grid-row: 3;
+}
+.block5{
+  width: 50%;
+  height: 30px;
+  background:white;
+}
+.block6{
+  width: 90%;
+  height: 30px;
+  background:  #1A53FF;
+}
+#JAVA{
+  grid-column: 2;
+  grid-row: 3;
+}
+.block7{
+  width: 50%;
+  height: 30px;
+  background:  white;
+}
+.block8{
+  width: 10%;
+  height: 30px;
+  background:#1A53FF;
+}
+
+#My-projects{
+  position: absolute;
+  background:;
+width: 100%;
+height: 500px;
+left: 20px;
+top: 898px;
+
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto;
+grid-gap:10px;
+grid
+}
+.Pro-pics{
+  width:100%;
+  height: 300px;
+}
+#item1{
+  grid-column: 2;
+  grid-row:1;
+  text-align: center;
+}
+#item2{
+  background:;
+  grid-column: 1;
+  grid-row:2;
+}
+#item3{
+  background: ;
+  grid-column: 2;
+  grid-row:2;
+}
+#item4{
+  background: ;
+  grid-column: 3;
+  grid-row:2;
+}
+
+#footer{
+position: absolute;
+width: 100%;
+height: 384px;
+left: 20px;
+top:97em;
+background:;
+display:grid;
+grid-template-columns: auto 50px auto;
+grid-row: auto auto;
+grid-gap: 10px;
+}
+
+#DL{
+  grid-column: 1;
+  grid-row: 2;
+background:;
+width:150px;
+height:300px;
+display:flex;
+flex-direction: column;
+
+}
+.C-item{
+  margin:10px 0px;
+}
+#Line{
+  grid-column: 2;
+  grid-row: 2;
+  background: gray;
+  width: 10px;
+height: 300px;
+}
+#form{
+  grid-column: 3;
+  grid-row:2 ;
+    background: ;
+    width: 100%;
+    height: 100%;
+}
+#form input[name=Name]{
+  margin: 50px 0px 10px 0px;
+  width: 30em;
+  height: 40px;
+    outline-color:#32a1ce;
+}
+#form input[name=Email]{
+  margin: 5px 0px 10px 0px;
+  width: 30em;
+  height: 40px;
+    outline-color:#32a1ce;
+}
+#form textarea{
+  resize:none;
+  width:27em;
+  font-size:11pt;
+    outline-color:#32a1ce;
+}
+#logo{
+  grid-column: 2;
+  grid-row: 3;
+  width: 300px;
+}
